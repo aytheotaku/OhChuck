@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Chuck Norris</title>
+    <script src="https://use.fontawesome.com/330494d073.js"></script>
+</head>
+<body>
+    
+<div class="container">
+
+        <div class="header-container">
+            <p class="header">CHUCK NORRIS JOKE GENERATOR</p>
+            <span class="copywrite">from aytheotaku with 💘</span>
+        </div>
+
+        <div class="socials">
+            <a href="http://instagram.com/aytheotaku" target="_blank" class="social-links instagram"><i class="fa fa-instagram animate__animated animate__fadeIn "></i></a>
+            <a href="http://twitter.com/aytheotaku" target="_blank"  class="social-links twitter"><i class="fa fa-twitter animate__animated animate__fadeIn"></i></a>
+            <a href="http://github.com/aytheotaku" target="_blank" class="social-links github"><i class="fa fa-github animate__animated animate__fadeIn"></i></a>
+        </div>
+
+        <div class="options">
+            <p class="select-header">Choose a joke category :)</p>
+            <div class="select target-select">
+                <select class="dom-select">
+                  <option value="animal">Animal</option>
+                  <option value="career">Career</option>
+                  <option value="celebrity">Celebrity</option>
+                  <option value="dev">Dev</option>
+                  <option value="explicit">Explicit</option>
+                  <option value="fashion">Fashion</option>
+                  <option value="food">Food</option>
+                  <option value="history">History</option>
+                  <option value="money">Money</option>
+                  <option value="movie">Movie</option>
+                  <option value="music">Music</option>
+                  <option value="political">Political</option>
+                  <option value="religion">Religion</option>
+                  <option value="science">Science</option>
+                  <option value="sport">Sport</option>
+                  <option value="travel">Travel</option> value=""
+                </select>
+              </div>
+        </div>
+
+        <div class="btn-container">
+            <button class="generate">
+                Chuck a joke
+            </button>
+        </div>
+
+
+        <div class="myLoader">
+            <div class="spinner"><div class="cube1"></div><div class="cube2"></div></div>
+        </div>
+
+        <div class="error">
+
+        </div>
+        
+        <section class="joke-section">
+            <p class="joke">
+            </p>
+        </section>
+
+
+
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
